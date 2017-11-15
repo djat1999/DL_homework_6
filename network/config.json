@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Алсу Аухатова"
+  },
+  "text": {
+    "more": "",
+    "intro": "Всего у меня получилось 7 групп.Оранжевым цветом указаны друзья из волейбольной команды сборной Высшей школы экономики.Голубым-друзья из вышки, одногруппники.Серым цветом веделены родственники.Фиолетовым-моя волейбольная команда из родного города.Зеленым указаны одноклассники из Гимназии, а темнофиолетовым друзья из муниципальной школы.Друзья связанные в один \"клубочек\" из темнофиолетового, фиолетового и зеленого цветов, скорее всего имеют общий признак \"проживают в одном городе\". У остальных такого схожего признака нет.",
+    "title": "Мои друзья"
+  },
+  "legend": {
+    "edgeLabel": "Дружба",
+    "colorLabel": "Общество ",
+    "nodeLabel": "Друзья"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
